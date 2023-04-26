@@ -1,0 +1,35 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: AWS Backup daily CloudFormation configuration
+Resources:
+    BackupPlan:
+        Type: AWS::Backup::BackupPlan
+        Properties:
+            BackupPlan:
+                BackupPlanName: THARUN1
+                BackupPlanRule:
+                  - RuleName: "EC2-backups"
+                    TargetBackupVault: !Ref 'BackupVault'
+                    ScheduleExpression: cron(55 11 * * ?)
+                    StartWindowMinutes: 60
+                    Lifecycle:
+                        DeleteAfterDays: 30
+
+    BackupSelection:
+        Type: AWS::Backup::BackupSelection
+        Properties: 
+            BackupPlanId: !Ref 'BackupPlan'
+            BackupSelection: 
+                IamRoleArn: arn:aws:iam::983557702708:role/instance
+                ListOfTags: 
+                  - ConditionType: STRINGEQUALS
+                    ConditionKey: 'Name'
+                    ConditionValue: 'EC_BACKUP'
+              #  Resources: 
+              #    - arn:aws:backup:ap-south-1:983557702708:instance/i-078bccae91e1e6573
+                SelectionName: tharun
+    BackupVault:
+        Type: AWS::Backup::BackupVault
+        Properties: 
+            BackupVaultName: "bACKUPvAULT1"
+        
+        
