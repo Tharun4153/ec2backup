@@ -23,27 +23,25 @@ When your template is ready, submit a pull request. A member of the AWS organiza
 
 ## Additional Resources
 In the *AWS CloudFormation User Guide*, you can view more information about the following topics:
--I add all custom policies in repository
+
+- I add all custom policies in repository
+
 - you need to update your policies
+
 - I uploaded some screenshots
- 
 
 - Here I created the custom roles and add some AWS Managed Policies and custom policies
- 
 
 - Here I created custom Policies called restore and add to my role
 
-
-
-
-
- 
 - Here Trust Relations also Important for backup the Resourses
- - Here EC2 Instance created using CLOUDFORMATION the Script be added in Repository
 
- - Here we created backup plan to backup the Ec2 instance the script added in Repository.
+- Here EC2 Instance created using CLOUDFORMATION the Script be added in Repository
+
+- Here we created backup plan to backup the Ec2 instance the script added in Repository.
   
-- WHAT WE CREATED SHOLUD BE IN ARCHITECTURE FORMATE
+- WHAT WE CREATED SHOULD BE IN ARCHITECTURE FORMATE
+
 - Learn how to use templates to create AWS CloudFormation stacks using the [AWS Management Console](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-console-create-stack.html) or [AWS Command Line Interface (AWS CLI)](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-cli-creating-stack.html).
 - To view all the supported AWS resources and their properties, see the [Template Reference](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-reference.html).
 
