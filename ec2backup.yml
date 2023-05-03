@@ -5,11 +5,11 @@ Resources:
         Type: AWS::Backup::BackupPlan
         Properties:
             BackupPlan:
-                BackupPlanName: THARUN1
+                BackupPlanName: THARUN
                 BackupPlanRule:
                   - RuleName: "EC2-backups"
                     TargetBackupVault: !Ref 'BackupVault'
-                    ScheduleExpression: cron(55 11 * * ?)
+                    ScheduleExpression: cron(30 12 * * ?)
                     StartWindowMinutes: 60
                     Lifecycle:
                         DeleteAfterDays: 30
@@ -19,17 +19,16 @@ Resources:
         Properties: 
             BackupPlanId: !Ref 'BackupPlan'
             BackupSelection: 
+                SelectionName: tharun
                 IamRoleArn: arn:aws:iam::983557702708:role/instance
                 ListOfTags: 
-                  - ConditionType: STRINGEQUALS
-                    ConditionKey: 'Name'
-                    ConditionValue: 'EC_BACKUP'
-              #  Resources: 
-              #    - arn:aws:backup:ap-south-1:983557702708:instance/i-078bccae91e1e6573
-                SelectionName: tharun
+                  - ConditionType: "STRINGEQUALS"
+                    ConditionKey: "Name"
+                    ConditionValue: "Production"
+                             
     BackupVault:
         Type: AWS::Backup::BackupVault
         Properties: 
-            BackupVaultName: "bACKUPvAULT1"
+            BackupVaultName: "bACKUPvAULT"
         
         
