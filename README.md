@@ -26,51 +26,33 @@ In the *AWS CloudFormation User Guide*, you can view more information about the 
 
 - I add all custom policies in repository
 
-<img src="./images/CUSTOM POLICY FOR RESTORE.jpeg" width="600" height="400"/>
+
 
 - you need to update your policies
 
-<img src="./images/policyadded.jpeg" width="600" height="400"/>
 
 - I uploaded some screenshots
 
 
-<img src="./images/RESTOREEC2INSTANCE.jpeg" width="600" height="400"/>
-
-
-
-<img src="./images/BACKUP JOB.jpeg" width="600" height="400"/>
-
-
-
-
-
-<img src="./images/BACKUP JOB.jpeg" width="600" height="400"/>
-
 
 - Here I created the custom roles and add some AWS Managed Policies and custom policies
 
-<img src="./images/ROLE INSTANCE.jpeg" width="600" height="400"/>
 
 - Here I created custom Policies called restore and add to my role
 
-<img src="./images/CUSTOM POLICY FOR RESTORE.jpeg" width="600" height="400"/>
 
 - Here Trust Relations also Important for backup the Resourses
 
-<img src="./images/TRUST RELATIONSHIP.jpeg" width="600" height="400"/>
 
 - Here EC2 Instance created using CLOUDFORMATION the Script be added in Repository
 
-<img src="./images/EC2INSTANCE.jpeg" width="600" height="400"/>
 
 - Here we created backup plan to backup the Ec2 instance the script added in Repository.
 
-<img src="./images/BACKUP PLAN CLOUDFORMATION.jpeg" width="600" height="400"/>
   
 - WHAT WE CREATED SHOULD BE IN ARCHITECTURE FORMATE
 
-<img src="./images/ARCHITECTURE.png" width="2000" height="3500"/>
+<img src="./images/ARCHITECTURE.png" width="500" height="1300"/>
 
 - Learn how to use templates to create AWS CloudFormation stacks using the [AWS Management Console](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-console-create-stack.html) or [AWS Command Line Interface (AWS CLI)](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-cli-creating-stack.html).
 - To view all the supported AWS resources and their properties, see the [Template Reference](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-reference.html).
