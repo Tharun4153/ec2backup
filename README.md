@@ -26,15 +26,15 @@ In the *AWS CloudFormation User Guide*, you can view more information about the 
 
 - I add all custom policies in repository
 
-<img src="./CUSTOM POLICY FOR RESTORE.jpeg" width="500" height="1000"/>
+<img src="./CUSTOM POLICY FOR RESTORE.jpeg" width="400" height="200"/>
 
 - you need to update your policies
 
-<img src="./ARCHITECTURE.jpeg" width="2000" height="3500"/>
+<img src="./ARCHITECTURE.jpeg" width="400" height="200"/>
 
 - I uploaded some screenshots
 
-<img src="./RESTOREEC2INSTANCE.jpeg" width="2000" height="3500"/>
+<img src="./RESTOREEC2INSTANCE.jpeg" width="400" height="200"/>
 
 - Here I created the custom roles and add some AWS Managed Policies and custom policies
 
