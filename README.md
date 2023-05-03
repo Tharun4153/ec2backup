@@ -42,6 +42,8 @@ In the *AWS CloudFormation User Guide*, you can view more information about the 
   
 - WHAT WE CREATED SHOULD BE IN ARCHITECTURE FORMATE
 
+<img src="./ARCHITECTURE.jpeg" width="3000" height="350"/>
+
 - Learn how to use templates to create AWS CloudFormation stacks using the [AWS Management Console](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-console-create-stack.html) or [AWS Command Line Interface (AWS CLI)](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-cli-creating-stack.html).
 - To view all the supported AWS resources and their properties, see the [Template Reference](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-reference.html).
 
