@@ -39,10 +39,6 @@ In the *AWS CloudFormation User Guide*, you can view more information about the 
 
 
 
-<img src="./images/RESTOREEC2INSTANCE.jpeg" width="600" height="400"/>
-
-
-
 <img src="./images/BACKUP JOB.jpeg" width="600" height="400"/>
 
 
