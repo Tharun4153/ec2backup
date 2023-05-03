@@ -31,7 +31,7 @@ In the *AWS CloudFormation User Guide*, you can view more information about the 
 - you need to update your policies
 
 
-- I uploaded some screenshots ` Images folder'
+- I uploaded some screenshots  'Images folder'
 
 
 
