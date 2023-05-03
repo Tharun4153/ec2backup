@@ -5,11 +5,11 @@ Resources:
         Type: AWS::Backup::BackupPlan
         Properties:
             BackupPlan:
-                BackupPlanName: THARUN
+                BackupPlanName: THARUN1
                 BackupPlanRule:
                   - RuleName: "EC2-backups"
                     TargetBackupVault: !Ref 'BackupVault'
-                    ScheduleExpression: cron(30 12 * * ?)
+                    ScheduleExpression: cron(30 10 * * ?)
                     StartWindowMinutes: 60
                     Lifecycle:
                         DeleteAfterDays: 30
@@ -23,12 +23,32 @@ Resources:
                 IamRoleArn: arn:aws:iam::983557702708:role/instance
                 ListOfTags: 
                   - ConditionType: "STRINGEQUALS"
-                    ConditionKey: "Name"
+                    ConditionKey: "Environment"
                     ConditionValue: "Production"
                              
     BackupVault:
         Type: AWS::Backup::BackupVault
         Properties: 
-            BackupVaultName: "bACKUPvAULT"
+            BackupVaultName: "bACKUPvAULT1"
+            
+Outputs:
+  BackupSelectionName:
+    Description: Tag:Value you need to put on your resource along with the Tag:Key Backup
+    Value: !Ref BackupSelection
+  BackupSelectionId:
+    Description: Backup Selection ID
+    Value: !Ref BackupSelection
+  BackupVaultArn:
+    Description: Backup Vault ARN
+    Value: !GetAtt BackupVault.BackupVaultArn
+  BackupPlanArn:
+    Description: BackupPlan Arn
+    Value: !GetAtt BackupPlan.BackupPlanArn
+  BackupPlanId:
+    Description: BackupPlan ID
+    Value: !Ref BackupSelection
+  BackupPlanVersionId:
+    Description: BackupPlan Version ID
+    Value: !GetAtt BackupPlan.VersionId            
         
         
