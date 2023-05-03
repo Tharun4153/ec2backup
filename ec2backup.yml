@@ -9,7 +9,7 @@ Resources:
                 BackupPlanRule:
                   - RuleName: "EC2-backups"
                     TargetBackupVault: !Ref 'BackupVault'
-                    ScheduleExpression: cron(30 10 * * ?)
+                    ScheduleExpression: cron(30 9 * * ?)
                     StartWindowMinutes: 60
                     Lifecycle:
                         DeleteAfterDays: 30
