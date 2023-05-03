@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Description: Deploy a simple Amazon Linux Instance and Default Resources.
+Description: Deploy a simple Amazon Linux Instance along with Default Resources.
 Parameters:
   KeyName:
     Description: EC2 Default Key Pair for SSH Access these prior to running this.
