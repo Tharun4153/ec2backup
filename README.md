@@ -30,7 +30,7 @@ In the *AWS CloudFormation User Guide*, you can view more information about the 
 
 - you need to update your policies
 
-<img src="./images/ARCHITECTURE.jpeg" width="600" height="400"/>
+<img src="./images/policyadded.jpeg" width="600" height="400"/>
 
 - I uploaded some screenshots
 
