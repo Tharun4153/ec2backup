@@ -26,35 +26,35 @@ In the *AWS CloudFormation User Guide*, you can view more information about the 
 
 - I add all custom policies in repository
 
-<img src="./CUSTOM POLICY FOR RESTORE.jpeg" width="400" height="200"/>
+<img src="./CUSTOM POLICY FOR RESTORE.jpeg" width="600" height="400"/>
 
 - you need to update your policies
 
-<img src="./ARCHITECTURE.jpeg" width="400" height="200"/>
+<img src="./ARCHITECTURE.jpeg" width="600" height="400"/>
 
 - I uploaded some screenshots
 
-<img src="./RESTOREEC2INSTANCE.jpeg" width="400" height="200"/>
+<img src="./RESTOREEC2INSTANCE.jpeg" width="600" height="400"/>
 
 - Here I created the custom roles and add some AWS Managed Policies and custom policies
 
-<img src="./ROLE INSTANCE.jpeg" width="2000" height="3500"/>
+<img src="./ROLE INSTANCE.jpeg" width="600" height="400"/>
 
 - Here I created custom Policies called restore and add to my role
 
-<img src="./CUSTOM POLICY FOR RESTORE.jpeg" width="2000" height="3500"/>
+<img src="./CUSTOM POLICY FOR RESTORE.jpeg" width="600" height="400"/>
 
 - Here Trust Relations also Important for backup the Resourses
 
-<img src="./TRUST RELATIONSHIP.jpeg" width="2000" height="3500"/>
+<img src="./TRUST RELATIONSHIP.jpeg" width="600" height="400"/>
 
 - Here EC2 Instance created using CLOUDFORMATION the Script be added in Repository
 
-<img src="./EC2INSTANCE.jpeg" width="2000" height="3500"/>
+<img src="./EC2INSTANCE.jpeg" width="600" height="400"/>
 
 - Here we created backup plan to backup the Ec2 instance the script added in Repository.
 
-<img src="./BACKUP PLAN CLOUDFORMATION.jpeg" width="2000" height="3500"/>
+<img src="./BACKUP PLAN CLOUDFORMATION.jpeg" width="600" height="400"/>
   
 - WHAT WE CREATED SHOULD BE IN ARCHITECTURE FORMATE
 
